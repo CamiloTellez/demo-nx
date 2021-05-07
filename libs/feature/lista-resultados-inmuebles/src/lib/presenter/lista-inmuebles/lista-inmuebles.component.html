@@ -1,0 +1,32 @@
+
+<ul>
+    <li class="mb-large" *ngFor="let inmueble of listaInmuebles">
+
+        <div class="cards"  class="width-20">
+            <div class="cards--header_avatar">
+              <div class="d-flex ai-center">
+                <img class="mr-tiny" src="data:image/png;base64,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" alt="avatar">
+                <div>
+                  <p class="text-grayscale-base text-base text-bold">Inmueble: {{inmueble.id}}</p>
+                  <p class="text-grayscale-gray-4 text-tiny">PARA VENTA</p>
+                </div>            
+              </div>        
+            </div>
+      
+            <figure>
+              <img class="width-100" [src]="inmueble.urlImg" alt="image-card">
+            </figure>
+      
+            <div class="cards__content">
+              <p class="text-small text-grayscale-gray-5">
+                Lancashire stilton caerphilly. Cheese triangles cheesy grin cheese strings danish 
+                fontina cheesy feet cheeseburger croque monsieur ricotta.
+              </p>
+            </div>
+            <hr class="width-100">
+          
+          </div>
+        
+  
+    </li>
+</ul>

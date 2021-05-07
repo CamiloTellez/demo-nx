@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@demo-nx/feature/lista-resultados-inmuebles": [
+        "libs/feature/lista-resultados-inmuebles/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

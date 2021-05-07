@@ -406,6 +406,33 @@
           }
         }
       }
+    },
+    "feature-lista-resultados-inmuebles": {
+      "projectType": "library",
+      "root": "libs/feature/lista-resultados-inmuebles",
+      "sourceRoot": "libs/feature/lista-resultados-inmuebles/src",
+      "prefix": "demo-nx",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/feature/lista-resultados-inmuebles/src/**/*.ts",
+              "libs/feature/lista-resultados-inmuebles/src/**/*.html"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/feature/lista-resultados-inmuebles"
+          ],
+          "options": {
+            "jestConfig": "libs/feature/lista-resultados-inmuebles/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   }
 }

@@ -19,6 +19,7 @@
       "tags": [],
       "implicitDependencies": ["ionic-ng-demo"]
     },
-    "express-demo": { "tags": [] }
+    "express-demo": { "tags": [] },
+    "feature-lista-resultados-inmuebles": { "tags": [] }
   }
 }
